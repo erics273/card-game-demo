@@ -14,8 +14,10 @@ public class CardApp {
 
         for (int i = 0; i < 5; i++){
 
+            //getting a card out of the deck
             Card card = deck.deal();
 
+            //giving that card to the hand
             hand1.deal(card);
 
         }
